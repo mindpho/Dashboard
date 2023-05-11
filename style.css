@@ -1,0 +1,178 @@
+body {
+  font-family: cursive;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(1, 250px) repeat(3, minmax(200px, 1fr)); 
+}
+
+
+/* Decorate the panel */
+.panel {
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background: lightgrey;
+  color: darkslategrey;
+}
+
+.iconDashboard {
+  margin-left: 30px;
+}
+
+.icons {
+  margin-left: 30px;
+  font-size: 20px;
+
+}
+
+/* Decorate the profile section */
+.profileBar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  background: whitesmoke;
+}
+
+#searchBar {
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 300px;
+  height: 23px;
+  border-radius: 5px;
+  background: lightgrey;
+  border: none;
+}
+
+.rightIcons {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  background: whitesmoke;
+}
+
+
+/* Decorate the main area */
+.mainArea {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 2;
+  grid-column-end: 4;  
+}
+
+/* Decorate "Your Projects" section */
+.projects {
+  display: flex;
+  margin-left: 90px;
+  gap: 750px;
+  margin-top: 20px;
+}
+
+.showProjects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#project-1 {
+  margin-top: 20px;
+  height: 205px;
+  width: 205px;
+  border-radius: 10px;
+  background: pink;
+  text-align: center;
+  
+}
+
+#project-2 {
+  margin-top: 20px;
+  height: 205px;
+  width: 205px;
+  border-radius: 10px;
+  background: bisque;
+  text-align: center;
+}
+
+#project-3 {
+  margin-top: 20px;
+  height: 205px;
+  width: 205px;
+  border-radius: 10px;
+  background: lavender;
+  text-align: center;
+}
+
+#project-4 {
+  margin-top: 20px;
+  height: 205px;
+  width: 205px;
+  border-radius: 10px;
+  background: #b8e6bf;
+  text-align: center;
+}
+
+/* Set up flex areas*/
+.infoArea {
+  display: flex;
+  justify-content: start;
+  gap: 60px;
+  margin-top: 40px;
+}
+
+/* Decorate "Your Team" section */
+.team {
+  height: 550px;
+  width: 300px;
+  margin-left: 30px;
+  border-radius: 10px;
+  background: #ffffce;
+}
+
+#teamName1, #teamName2, #teamName3, #teamName4 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 20px;
+  background: white;
+  width: 225px;
+  box-shadow: 0px 2px 3px 1px lightgrey;
+  border-radius: 20px;
+}
+
+/* Decorate "Your Budget" section */
+.budget {
+  height: 300px;
+  width: 650px;
+  border-radius: 10px;
+  background: #d5f3fe;
+}
+
+.budget1, .budget2 {
+  background: white;
+  border-radius: 20px;
+  width: 560px;
+  height: 70px;
+  margin-left: 45px;
+  margin-top: 25px;
+  box-shadow: 0px 2px 3px 1px lightgrey;
+}
+
+/* Decorate "Your Personal Notes" section */
+.personal {
+  background: #efe7e1;
+  height: 215px;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+
+.noteDisplay {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -15px;
+  border-radius: 10px;
+}
+
+#note1, #note2, #note3 {
+  background: white;
+  height: 90px;
+  width: 170px;
+  box-shadow: 0px 2px 3px 1px lightgrey;
+  border-radius: 20px;
+  text-align: center;
+}
