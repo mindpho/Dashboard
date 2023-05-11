@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <!-- "Panel" section -->
+    <div class="dashboard">
+      <div class="panel">
+        <div class="iconDashboard">
+          <i class="fa fa-dashboard" style="margin-top: 20px; font-size: 40px"></i><span style="font-size: 25px; font-weight: bold"> Dashboard</span>
+        </div>
+        <div class="icons">
+          <p style="color: dimgrey; font-weight: bold; margin-top: 70px; line-height: 50px; background: white; height: 50px; border-radius: 20px 0px 10px 0px"><i class="fa fa-suitcase" style="margin-left: 15px"></i> Projects</p>
+          <p><i class="fa fa-comment"></i> Messages</p>
+          <p><i class="fa fa-group"></i> Communities</p> 
+          <p><i class="fa fa-id-card"></i> Profiles</p>
+          <p><i class="fa fa-gear"></i> Setting</p>     
+        </div>
+      </div>
+      
+      <!-- "Profile + Search bar" section -->
+      <div class="profileBar">
+        <form action="#" method="get">
+          <input type="text" id="searchBar" placeholder="Search here">
+          <i class="fa fa-search"></i>
+        </form>
+        <p style="margin-left: 125px; margin-top: 25px; font-size: 30px">Welcome, Lucy Lopez!</p>
+      </div>
+      
+      <div class="rightIcons">
+        <i class="fa fa-user-circle" style="float: right; margin-top: 10px; margin-right: 10px; font-size: 40px; color: orange"></i>
+        <i class="fa fa-bell-o" style="float:right; margin-top: 20px; margin-right: 20px"></i>
+      </div>
+      
+      <!-- "Your Projects" section -->
+      <div class="mainArea">
+        <div class="projects">
+          <div id="yourProject" style="font-weight: bold; font-size: 20px"><u>Your Projects</u></div>
+          <div id="viewProject">View All</div>       
+        </div>
+       
+        <div class="showProjects">
+          <div id="project-1">
+            <p style="color: deeppink; font-weight: bold; font-size: 17px">Software Update</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br><u style="font-size: 13px">View more</u></p>
+            <p style="color: dimgrey; font-size: 15px">Start: Apr 5th, 2022</p>
+          </div>
+          <div id="project-2">
+            <p style="color: orangered; font-weight: bold; font-size: 17px">Web Update</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br><u style="font-size: 13px">View more</u></p>
+            <p style="color: dimgrey; font-size: 15px">Start: Oct 23rd, 2022</p>
+          </div>
+          <div id="project-3">
+            <p style="color: indigo; font-weight: bold; font-size: 17px">UI Project</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br><u style="font-size: 13px">View more</u></p>
+            <p style="color: dimgrey; font-size: 15px">Start: Jan 10th, 2023</p>
+          </div>
+          <div id="project-4">
+              <p style="color: darkgreen; font-weight: bold; font-size: 17px">Application Review</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...<br><u style="font-size: 13px">View more</u></p>
+            <p style="color: dimgrey; font-size: 15px">Start: Apr 19th, 2032</p>
+          </div>          
+        </div>
+        
+        <!-- "Your Team" area -->
+        <div class="infoArea">
+          <div class="team">
+            <p style="line-height: 40px; font-weight: bold; font-size: 20px; text-align: center"><u>Your Team</u></p>
+            <div id="teamName1">
+              <i class="fa fa-user-circle" style="color: darkgoldenrod; font-size: 40px; margin-top: 15px; margin-left: 15px"></i><span style="font-size: 17px; margin-left: 15px; margin-top: 10px"><b>John Smith</b></span>
+              <p style="font-size: 15px; margin-left: -95px; margin-top: 35px">Project Manager</p>         
+            </div>
+            <div id="teamName2">
+              <i class="fa fa-user-circle" style="color: darkgoldenrod; font-size: 40px; margin-top: 15px; margin-left: 15px"></i><span style="font-size: 17px; margin-left: 15px; margin-top: 10px"><b>Megan Jones</b></span>
+              <p style="font-size: 15px; margin-left: -107px; margin-top: 35px">Software Developer</p>
+            </div>
+            <div id="teamName3">
+               <i class="fa fa-user-circle" style="color: darkgoldenrod; font-size: 40px; margin-top: 15px; margin-left: 15px"></i><span style="font-size: 17px; margin-left: 15px; margin-top: 10px"><b>David Lotte</b></span>
+              <p style="font-size: 15px; margin-left: -97px; margin-top: 35px">UX/UI Designer</p>           
+            </div>
+            <div id="teamName4">
+               <i class="fa fa-user-circle" style="color: darkgoldenrod; font-size: 40px; margin-top: 15px; margin-left: 15px"></i><span style="font-size: 17px; margin-left: 15px; margin-top: 10px"><b>Lily Chen</b></span>
+              <p style="font-size: 15px; margin-left: -77px; margin-top: 35px">QA Developer</p>
+            </div>
+            <p style="text-align: right; margin-right: 20px; margin-top: 25px; color: chocolate"><u>View All</u></p>         
+          </div>
+
+            <!-- "Your Budget" section -->
+          <div class="budget">
+            <p style="text-align: center; font-weight: bold; font-size: 20px"><u>Your Budget</u></p>
+            <div class="budget1">
+              <i class="fa fa-wrench" style="color: steelblue; font-size: 30px; margin-left: 15px; margin-top: 15px"></i>
+              <span style="font-size: 20px; font-weight: 600; margin-left: 5px">Maintainance
+                <span style="font-size: 15px; color: grey">...................................<span style="color: red"> over budget</span>
+                <i class="fa fa-angle-right" style="margin-left: 10px"></i>
+              </span>                        
+            </div>
+             
+            <div class="budget2">
+              <i class="fa fa-users" style="color: steelblue; font-size: 30px; margin-left: 15px; margin-top: 17px"></i>
+              <span style="font-size: 20px; font-weight: 600; margin-left: 5px">Human Resources
+                <span style="font-size: 15px; color: grey">............................<span style="color: green"> under budget</span>
+                <i class="fa fa-angle-right" style="margin-left: 10px"></i>
+              </span>                        
+            </div>
+              <p style="color: midnightblue; text-align: right; margin-right: 20px"><u>View All</u></p>
+              
+              <!-- "Your Personal Notes" section -->
+              <div class="personal">
+                <p style="text-align: center; font-weight: bold; font-size: 20px; line-height: 75px"><u>Your Personal Notes</u></p>
+                <div class="noteDisplay">
+                  <div id="note1">
+                    <p style="font-weight: bold; font-size: 17px">Business</p>
+                    <p style="font-size: 13px; margin-top: -10px;">Lorem ipsum dolor...</p>
+                  </div>
+                  <div id="note2">
+                    <p style="font-weight: bold; font-size: 17px">Meetings</p>
+                    <p style="font-size: 13px; margin-top: -10px;">Lorem ipsum dolor...</p>
+                  </div>
+                  <div id="note3">
+                      <p style="font-weight: bold; font-size: 17px">Plans</p>
+                    <p style="font-size: 13px; margin-top: -10px;">Lorem ipsum dolor...</p>
+                  </div>
+                </div>
+                <p style="color: brown; text-align: right; margin-right: 20px"><u>View All</u></p>   
+              </div>  
+          </div>
+        </div>     
+      </div>  
+    </div>
+  </body>
+</html>
